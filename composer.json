@@ -1,6 +1,6 @@
 {
     "name": "justinbarkhuff/laravel-stats",
-    "description": "A downgraded fork of spatie/laravel-stats to make it compatible with PHP 7.4+ and MySQL 5.7",
+    "description": "A fork of spatie/laravel-stats which is backwards compatible with PHP 7.4+ and MySQL 5.7",
     "keywords": [
         "spatie",
         "laravel-stats"
