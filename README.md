@@ -73,7 +73,7 @@ on [our virtual postcard wall](https://spatie.be/open-source/postcards).
 You can install the package via composer:
 
 ```bash
-composer require spatie/laravel-stats
+composer require justinbarkhuff/laravel-stats
 ```
 
 You must publish and run the migrations with:

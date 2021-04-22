@@ -13,7 +13,7 @@
             "email": "justin@justinbarkhuff.com",
             "homepage": "https://justinbarkhuff.com",
             "role": "Developer"
-        },
+        }
     ],
     "require": {
         "php": "^7.4",
