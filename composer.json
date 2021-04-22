@@ -1,28 +1,22 @@
 {
-    "name": "spatie/laravel-stats",
-    "description": "Track application stat changes over time",
+    "name": "justinbarkhuff/laravel-stats",
+    "description": "A downgraded fork of spatie/laravel-stats to make it compatible with PHP 7.4+ and MySQL 5.7",
     "keywords": [
         "spatie",
         "laravel-stats"
     ],
-    "homepage": "https://github.com/spatie/laravel-stats",
+    "homepage": "https://github.com/justinbarkhuff/laravel-stats",
     "license": "MIT",
     "authors": [
         {
-            "name": "Alex Vanderbist",
-            "email": "alex@spatie.be",
-            "homepage": "https://spatie.be",
+            "name": "Justin Barkhuff",
+            "email": "justin@justinbarkhuff.com",
+            "homepage": "https://justinbarkhuff.com",
             "role": "Developer"
         },
-        {
-            "name": "Freek Van der Herten",
-            "email": "freek@spatie.be",
-            "homepage": "https://spatie.be",
-            "role": "Developer"
-        }
     ],
     "require": {
-        "php": "^8.0",
+        "php": "^7.4",
         "illuminate/contracts": "^8.0",
         "spatie/laravel-package-tools": "^1.6"
     },
