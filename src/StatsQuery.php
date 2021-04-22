@@ -119,12 +119,12 @@ class StatsQuery
             $lastPeriodValue = $value;
 
             return new DataPoint(
-                start: $periodStart,
-                end: $periodEnd,
-                value: (int) $value,
-                increments: (int) ($differencesPerPeriod[$periodKey]['increments'] ?? 0),
-                decrements: (int) ($differencesPerPeriod[$periodKey]['decrements'] ?? 0),
-                difference: (int) ($differencesPerPeriod[$periodKey]['difference'] ?? 0),
+                $periodStart,
+                $periodEnd,
+                (int) $value,
+                (int) ($differencesPerPeriod[$periodKey]['increments'] ?? 0),
+                (int) ($differencesPerPeriod[$periodKey]['decrements'] ?? 0),
+                (int) ($differencesPerPeriod[$periodKey]['difference'] ?? 0),
             );
         });
     }
